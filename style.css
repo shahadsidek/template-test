@@ -1,0 +1,14 @@
+html{
+    box-sizing: border-box;
+    /*
+    | BORDER-BOX |  
+    anytime you add padding to an element it will stretch, meaning if you have 100% page width and added a padding of 20px it will create a horizontal scrollbar ~ the box-sizing will prevent this from happening */
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    /* 
+    | 100VH |
+    it will stretch the full height of the screen even if the content int enough to take the full height
+    */
+}
